@@ -1,0 +1,12 @@
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\bin\Debug\net7.0\Application.dll
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.dll
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\ref\Application.dll
