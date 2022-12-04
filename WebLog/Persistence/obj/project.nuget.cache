@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpzRo68Ou+lmy9j236L4j/NpRZU7tajycFYwR2pbUhVDxBny6kQEdS8lenAOymw4Ssrr6LVpLylRXgK4y1JdmA==",
+  "dgSpecHash": "tfFtUgKOg0uGzw2T7EbMxKWvPEV3TKhJ2BbQNsiqkwe/aKzY2V1RJE8PUx+ojl9L8os5lLz4OdZz+ffhppZ+Tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ILIYA 2022\\source\\repos\\WebLog\\Persistence\\Persistence.csproj",
+  "projectFilePath": "E:\\Projects\\.Net7\\WebLog\\WebLog\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

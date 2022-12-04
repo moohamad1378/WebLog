@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ILIYA 2022\\source\\repos\\WebLog\\Common\\Common.csproj",
+      "projectUniqueName": "E:\\Projects\\.Net7\\WebLog\\WebLog\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\ILIYA 2022\\source\\repos\\WebLog\\Common\\Common.csproj",
+      "projectPath": "E:\\Projects\\.Net7\\WebLog\\WebLog\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\ILIYA 2022\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ILIYA 2022\\source\\repos\\WebLog\\Common\\obj\\",
+      "outputPath": "E:\\Projects\\.Net7\\WebLog\\WebLog\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,3 +10,37 @@ C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application
 C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\refint\Application.dll
 C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\Application.pdb
 C:\Users\ILIYA 2022\source\repos\WebLog\Application\obj\Debug\net7.0\ref\Application.dll
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Application.deps.json
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Application.dll
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Application.pdb
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Domain.dll
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Persistence.dll
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Persistence.pdb
+E:\WebLog\WebLog\Application\bin\Debug\net7.0\Domain.pdb
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.dll
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\refint\Application.dll
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\Application.pdb
+E:\WebLog\WebLog\Application\obj\Debug\net7.0\ref\Application.dll
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Application.deps.json
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Application.dll
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Application.pdb
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Domain.dll
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Persistence.dll
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Persistence.pdb
+E:\Projects\.Net7\WebLog\WebLog\Application\bin\Debug\net7.0\Domain.pdb
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.dll
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\refint\Application.dll
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\Application.pdb
+E:\Projects\.Net7\WebLog\WebLog\Application\obj\Debug\net7.0\ref\Application.dll

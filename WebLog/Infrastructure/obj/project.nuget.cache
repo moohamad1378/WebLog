@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ptVDyEZgggwrNuKig1mH8Ev2lYv3mShx2f9PjRcTQ5WmhS26JT2Wx11nP8e4ki5IfRo17Grd/VfgidUC+Mk6uA==",
+  "dgSpecHash": "4HtI15FOeNQFakfCn17qLKfS3QgY5c7xuUgPnUM21ShcoJfvXi2nllAIW83JjigTY3Bif895OIhZDznL1NEA1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ILIYA 2022\\source\\repos\\WebLog\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\Projects\\.Net7\\WebLog\\WebLog\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

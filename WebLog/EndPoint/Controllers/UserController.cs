@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Application.CQRS.UsersCQRS.Commands;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,22 +10,27 @@ namespace EndPoint.Controllers
     {
         private readonly UserManager<IdentityUser> _manager;
         private readonly SignInManager<IdentityUser> _SignInManager;
+        private readonly IMediator mediator;
+
         public UserController(UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager)
+            SignInManager<IdentityUser> signInManager,IMediator mediator)
         {
             _manager = userManager;
             _SignInManager = signInManager;
+            this.mediator = mediator;
         }
-        //[Authorize]
-        //[HttpGet]
-        //public Task<IActionResult> Index()
-        //{
-        //    var FindUser = _manager.FindByNameAsync(User.Identity.Name).Result;
-        //    return View();
-        //}
-        //public Task<IActionResult> Register()
-        //{
-        //    return  ();
-        //}  
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var FindUser = _manager.FindByNameAsync(User.Identity.Name).Result;
+            return View();
+        }
+        public async Task<IActionResult> Register(AddUserCommandRequestDto addUserCommandResponsDto)
+        {
+            AddUserCommand addUserCommand = new AddUserCommand(addUserCommandResponsDto);
+            var result= mediator.Send(addUserCommand).Result;
+            return View();
+        }
     }
 }

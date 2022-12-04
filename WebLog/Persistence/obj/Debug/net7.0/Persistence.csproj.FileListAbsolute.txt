@@ -15,3 +15,37 @@ C:\Users\ILIYA 2022\source\repos\WebLog\Persistence\obj\Debug\net7.0\Persistence
 C:\Users\ILIYA 2022\source\repos\WebLog\Persistence\obj\Debug\net7.0\ref\Persistence.dll
 C:\Users\ILIYA 2022\source\repos\WebLog\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
 C:\Users\ILIYA 2022\source\repos\WebLog\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+E:\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.deps.json
+E:\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+E:\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.dll
+E:\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.pdb
+E:\WebLog\WebLog\Persistence\bin\Debug\net7.0\Domain.dll
+E:\WebLog\WebLog\Persistence\bin\Debug\net7.0\Domain.pdb
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.dll
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.pdb
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+E:\WebLog\WebLog\Persistence\obj\Debug\net7.0\ref\Persistence.dll
+E:\Projects\.Net7\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.deps.json
+E:\Projects\.Net7\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+E:\Projects\.Net7\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.dll
+E:\Projects\.Net7\WebLog\WebLog\Persistence\bin\Debug\net7.0\Persistence.pdb
+E:\Projects\.Net7\WebLog\WebLog\Persistence\bin\Debug\net7.0\Domain.dll
+E:\Projects\.Net7\WebLog\WebLog\Persistence\bin\Debug\net7.0\Domain.pdb
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.dll
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.pdb
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+E:\Projects\.Net7\WebLog\WebLog\Persistence\obj\Debug\net7.0\ref\Persistence.dll

@@ -8,29 +8,30 @@ using System.Threading.Tasks;
 
 namespace Application.CQRS.UsersCQRS.Commands
 {
-    internal class AddUserCommand:IRequest<AddUserCommandResponse>
+    public class AddUserCommand:IRequest<AddUserCommandResponse>
     {
-        public AddUserCommand(AddUserCommandResponsDto addUserCommandResponsDto)
+
+        public AddUserCommand(AddUserCommandRequestDto addUserCommandRequestDto)
         {
-            AddUserCommandResponsDto= addUserCommandResponsDto;
+            addUserCommandRequest = addUserCommandRequestDto;
         }
-        public AddUserCommandResponsDto AddUserCommandResponsDto { get; set; }
+        public AddUserCommandRequestDto addUserCommandRequest { get; set; }
     }
-    public class AddUserHandler : IRequestHandler<AddUserCommandResponsDto, AddUserCommandResponse>
+    public class AddUserHandler : IRequestHandler<AddUserCommand, AddUserCommandResponse>
     {
         private readonly UserManager<IdentityUser> _userManager;
         public AddUserHandler(UserManager<IdentityUser> userManager)
         {
             _userManager= userManager;
         }
-        public Task<AddUserCommandResponse> Handle(AddUserCommandResponsDto request, CancellationToken cancellationToken)
+        public Task<AddUserCommandResponse> Handle(AddUserCommand request, CancellationToken cancellationToken)
         {
             IdentityUser user = new IdentityUser
             {
-                UserName = request.UserName,
-                Email = request.Email
+                UserName = request.addUserCommandRequest.UserName,
+                Email = request.addUserCommandRequest.Email
             };
-            var result = _userManager.CreateAsync(user, request.Password).Result;
+            var result = _userManager.CreateAsync(user, request.addUserCommandRequest.Password).Result;
             if (result.Succeeded)
             {
                 return Task.FromResult(new AddUserCommandResponse
@@ -38,11 +39,12 @@ namespace Application.CQRS.UsersCQRS.Commands
                     UserId = user.Id,
                 });
             }
-            List<string> message;
+            string message = "";
             foreach (var item in result.Errors.ToList())
             {
-                message.Add += item.Description + Environment.NewLine;
+                message += item.Description + Environment.NewLine;
             }
+
             return Task.FromResult(new AddUserCommandResponse
             {
                 Errors = message
@@ -52,9 +54,9 @@ namespace Application.CQRS.UsersCQRS.Commands
     public class AddUserCommandResponse
     {
         public string UserId { get; set; }
-        public List<string> Errors { get; set; }
+        public string Errors { get; set; }
     }
-    public class AddUserCommandResponsDto
+    public class AddUserCommandRequestDto
     {
         public string UserName { get; set; }
         public string Email { get; set; }

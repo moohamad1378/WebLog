@@ -10,3 +10,27 @@ C:\Users\ILIYA 2022\source\repos\WebLog\Domain\obj\Debug\net7.0\Domain.dll
 C:\Users\ILIYA 2022\source\repos\WebLog\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\ILIYA 2022\source\repos\WebLog\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\ILIYA 2022\source\repos\WebLog\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\WebLog\WebLog\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\WebLog\WebLog\Domain\bin\Debug\net7.0\Domain.dll
+E:\WebLog\WebLog\Domain\bin\Debug\net7.0\Domain.pdb
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.dll
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.pdb
+E:\WebLog\WebLog\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\Projects\.Net7\WebLog\WebLog\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Projects\.Net7\WebLog\WebLog\Domain\bin\Debug\net7.0\Domain.dll
+E:\Projects\.Net7\WebLog\WebLog\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.dll
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Projects\.Net7\WebLog\WebLog\Domain\obj\Debug\net7.0\ref\Domain.dll

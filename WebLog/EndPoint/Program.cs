@@ -1,4 +1,6 @@
+using Application.CQRS.UsersCQRS.Commands;
 using EndPoint.Utility;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
@@ -50,6 +52,10 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/Account/Accessdenied";
     options.SlidingExpiration = true;
 });
+#endregion
+
+#region CQRS
+builder.Services.AddMediatR(typeof(AddUserCommand).Assembly);
 #endregion
 
 

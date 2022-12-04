@@ -15,19 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C21EEB0C-4299-4C0B-8D03-9F6EDEE0C7C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{7EB647A4-7626-4297-8489-E11CDEA539C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{7EB647A4-7626-4297-8489-E11CDEA539C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{40D64FA4-2001-4845-860F-670DCB75C3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{40D64FA4-2001-4845-860F-670DCB75C3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A3D61988-0D57-4EB6-8BF1-7402399CC51B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A3D61988-0D57-4EB6-8BF1-7402399CC51B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2F140FF6-869B-448E-BD79-1D20E75519A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2F140FF6-869B-448E-BD79-1D20E75519A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{99468972-75F3-41CB-A5E1-1753954BB5C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{99468972-75F3-41CB-A5E1-1753954BB5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndPoint", "EndPoint\EndPoint.csproj", "{601DD532-F762-4D91-A7EB-7E882761BD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndPoint", "EndPoint\EndPoint.csproj", "{601DD532-F762-4D91-A7EB-7E882761BD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndPointTest", "EndPointTest\EndPointTest.csproj", "{547898B0-DD48-4ACB-87D3-189CB3E19E25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndPointTest", "EndPointTest\EndPointTest.csproj", "{547898B0-DD48-4ACB-87D3-189CB3E19E25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

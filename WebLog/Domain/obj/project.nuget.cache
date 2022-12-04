@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VHJ5RooY+N0fUlM/cWq2UbDhN2QgTyWAw9Ysck6Jsew7uZelCjJoaP3e7xyZEb3YmXCMYYZbDCKeHMZFrnlQjg==",
+  "dgSpecHash": "cY2HulvayFoI7tD4J4xfa6KHcljcs0Fn7vXzYlsAHfX+X2XGNiKuBhCLL/wnI7A8fXcDoU/6VNJXndoH94K7OQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ILIYA 2022\\source\\repos\\WebLog\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\Projects\\.Net7\\WebLog\\WebLog\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

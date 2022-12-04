@@ -10,3 +10,27 @@ C:\Users\ILIYA 2022\source\repos\WebLog\Common\obj\Debug\net7.0\Common.dll
 C:\Users\ILIYA 2022\source\repos\WebLog\Common\obj\Debug\net7.0\refint\Common.dll
 C:\Users\ILIYA 2022\source\repos\WebLog\Common\obj\Debug\net7.0\Common.pdb
 C:\Users\ILIYA 2022\source\repos\WebLog\Common\obj\Debug\net7.0\ref\Common.dll
+E:\WebLog\WebLog\Common\bin\Debug\net7.0\Common.deps.json
+E:\WebLog\WebLog\Common\bin\Debug\net7.0\Common.dll
+E:\WebLog\WebLog\Common\bin\Debug\net7.0\Common.pdb
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.dll
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\refint\Common.dll
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\Common.pdb
+E:\WebLog\WebLog\Common\obj\Debug\net7.0\ref\Common.dll
+E:\Projects\.Net7\WebLog\WebLog\Common\bin\Debug\net7.0\Common.deps.json
+E:\Projects\.Net7\WebLog\WebLog\Common\bin\Debug\net7.0\Common.dll
+E:\Projects\.Net7\WebLog\WebLog\Common\bin\Debug\net7.0\Common.pdb
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.dll
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\refint\Common.dll
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\Common.pdb
+E:\Projects\.Net7\WebLog\WebLog\Common\obj\Debug\net7.0\ref\Common.dll
