@@ -8,14 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
+using Moq;
 
 namespace Application.Test.CQRS.Queries
 {
-    internal class GetUserQueryTest
+    public  class GetUserQueryTest
     {
-        public void GetUsersQueryHandlerTest()
+        [Fact]
+        public  void GetUsersQueryHandlerTest()
         {
-            GetUsersQueryHandler getUsersQueryHandler = new GetUsersQueryHandler();
+            //Arrange
+            var moq = MockHelpers.MockUserManager<IdentityUser>();
+
+
+            GetUsersQueryHandler getUsersQueryHandler = new GetUsersQueryHandler(moq.Object);
+
             var option = new DbContextOptionsBuilder<DataBaseContext>()
                         .UseInMemoryDatabase("test")
                         .ConfigureWarnings(b => b.Ignore(InMemoryEventId.TransactionIgnoredWarning))
@@ -25,8 +32,14 @@ namespace Application.Test.CQRS.Queries
                 new IdentityUser { UserName = "mamad", Id = "11422221" },
                 new IdentityUser { UserName = "ali", Id = "08690" }
             );
-            getUsersQueryHandler.Handle();
             database.SaveChanges();
+            GetUsersQuery getUsersQuery = new GetUsersQuery();
+            CancellationToken cancellationToken=new CancellationToken();
+            //Act
+            var result = getUsersQueryHandler.Handle(getUsersQuery, cancellationToken);
+            //Assert
+            Assert.NotNull(result);
+            
             database.Dispose();
         }
     }

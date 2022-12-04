@@ -1,4 +1,5 @@
 using Application.CQRS.UsersCQRS.Commands;
+using Application.CQRS.UsersCQRS.Queries;
 using EndPoint.Utility;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -56,6 +57,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 #region CQRS
 builder.Services.AddMediatR(typeof(AddUserCommand).Assembly);
+builder.Services.AddMediatR(typeof(GetUsersQuery).Assembly);
 #endregion
 
 
