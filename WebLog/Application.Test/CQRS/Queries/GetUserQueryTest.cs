@@ -17,7 +17,7 @@ namespace Application.Test.CQRS.Queries
         [Fact]
         public  void GetUsersQueryHandlerTest()
         {
-            //Arrange
+            #region Arrang
             var moq = MockHelpers.MockUserManager<IdentityUser>();
 
 
@@ -34,12 +34,20 @@ namespace Application.Test.CQRS.Queries
             );
             database.SaveChanges();
             GetUsersQuery getUsersQuery = new GetUsersQuery();
-            CancellationToken cancellationToken=new CancellationToken();
-            //Act
+            CancellationToken cancellationToken = new CancellationToken();
+            #endregion
+
+            #region Act
             var result = getUsersQueryHandler.Handle(getUsersQuery, cancellationToken);
-            //Assert
-            Assert.NotNull(result);
-            
+            #endregion
+
+            #region Assert
+            Assert.NotNull(result.Result);
+            Assert.Equal(2, 2);
+            Assert.IsType<List<GetUsersQueryRespons>>(result.Result);
+            #endregion
+
+
             database.Dispose();
         }
     }
