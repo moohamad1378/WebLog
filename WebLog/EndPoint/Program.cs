@@ -58,6 +58,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 #region CQRS
 builder.Services.AddMediatR(typeof(AddUserCommand).Assembly);
 builder.Services.AddMediatR(typeof(GetUsersQuery).Assembly);
+builder.Services.AddMediatR(typeof(GetUserQuery).Assembly);
 #endregion
 
 

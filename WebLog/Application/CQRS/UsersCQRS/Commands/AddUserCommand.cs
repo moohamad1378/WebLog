@@ -24,31 +24,35 @@ namespace Application.CQRS.UsersCQRS.Commands
         {
             _userManager= userManager;
         }
-        public Task<AddUserCommandResponse> Handle(AddUserCommand request, CancellationToken cancellationToken)
+        public  Task<AddUserCommandResponse> Handle(AddUserCommand request, CancellationToken cancellationToken)
         {
             IdentityUser user = new IdentityUser
             {
                 UserName = request.addUserCommandRequest.UserName,
                 Email = request.addUserCommandRequest.Email
             };
-            var result = _userManager.CreateAsync(user, request.addUserCommandRequest.Password).Result;
+            var result =  _userManager.CreateAsync(user, request.addUserCommandRequest.Password).Result;
             if (result.Succeeded)
             {
-                return Task.FromResult(new AddUserCommandResponse
+                return  Task.FromResult(new AddUserCommandResponse
                 {
                     UserId = user.Id,
                 });
             }
-            string message = "";
-            foreach (var item in result.Errors.ToList())
+            else
             {
-                message += item.Description + Environment.NewLine;
+                string message = "";
+                foreach (var item in result.Errors.ToList())
+                {
+                    message += item.Description + Environment.NewLine;
+                }
+
+                return Task.FromResult(new AddUserCommandResponse
+                {
+                    Errors = message
+                });
             }
 
-            return Task.FromResult(new AddUserCommandResponse
-            {
-                Errors = message
-            });
         }
     }
     public class AddUserCommandResponse

@@ -1,4 +1,5 @@
 ﻿using Application.CQRS.UsersCQRS.Commands;
+using Application.CQRS.UsersCQRS.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -28,9 +29,17 @@ namespace EndPoint.Controllers
         }
         public async Task<IActionResult> Register(AddUserCommandRequestDto addUserCommandResponsDto)
         {
-            AddUserCommand addUserCommand = new AddUserCommand(addUserCommandResponsDto);
-            var result= mediator.Send(addUserCommand).Result;
+            AddUserCommand addUserCommand1=new AddUserCommand(addUserCommandResponsDto);
+            var result= mediator.Send(addUserCommand1).Result;
             return View();
+        }
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> Edit(GetUserQueryHandlerDto getUserQueryHandlerDto)
+        {
+            GetUserQuery getUserQuery=new GetUserQuery(getUserQueryHandlerDto);
+            var resutl = mediator.Send(getUserQuery).Result;
+            return View(resutl);
         }
     }
 }
